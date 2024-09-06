@@ -57,6 +57,7 @@ const TicToe = () => {
   return (
     <>
       <div className="board">
+        <h1 className="gameheading">Tic Tac Toe Game</h1>
         <div className="board-row">
           {renderSquare(0)}
           {renderSquare(1)}
